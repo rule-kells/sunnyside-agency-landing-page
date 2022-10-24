@@ -33,7 +33,7 @@
 
     /* ### Font */
 
-    --ff-primary: 'Fraunces',
+    --ff-primary: 'Fraunces 9pt Soft',
         serif;
 
     --ff-secondary: 'Barlow',
@@ -71,6 +71,7 @@ html {
 }
 
 body {
+    background: hsla(39, 100%, 99%, 1);
     font-family: var(--ff-secondary);
     font-size: var(--fs-body);
     line-height: 1.5em;
@@ -202,6 +203,8 @@ header::after {
 .nav__item--btn {
     max-width: 8.75rem;
     font-family: var(--ff-primary);
+    font-size: 0.9375rem;
+    font-weight: var(--fw-700);
     text-align: center;
     letter-spacing: -0.11px;
     text-transform: uppercase;
@@ -250,6 +253,7 @@ header::after {
 
 .nav--header.active .nav__list--primary .nav__link--btn {
     color: var(--clr-neutral-palette-900);
+    
 }
 
 .nav--header.active .btn--nav {
